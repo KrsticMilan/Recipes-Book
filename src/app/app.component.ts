@@ -9,8 +9,4 @@ export class AppComponent {
   title = "my-app";
   activeTab: string = "recipes";
 
-  selectedTab(activeTab: string) {
-    this.activeTab = activeTab;
-    console.log(activeTab);
-  }
 }
